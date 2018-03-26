@@ -1,0 +1,24 @@
+
+T0368 000:397 SEGGER J-Link ARM V4.11i (beta) Log File (0002ms, 0394ms total)
+T0368 000:397 DLL Compiled: Jan 28 2010 19:55:25 (0002ms, 0394ms total)
+T0368 000:397 Logging started @ 2017-02-12 14:40 (0002ms, 0394ms total)
+T0368 000:399 JLINKARM_SetWarnOutHandler(...) (0000ms, 0396ms total)
+T0368 000:399 JLINKARM_OpenEx(...)
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+S/N: 304423265
+Feature(s): RDI,FlashDL,FlashBP,JFlash,GDBFULL  returns O.K. (0154ms, 0396ms total)
+T0368 000:553 JLINKARM_SetErrorOutHandler(...) (0000ms, 0550ms total)
+T0368 000:553 JLINKARM_TIF_Select(JLINKARM_TIF_SWD)  returns 0x00 (0002ms, 0550ms total)
+T0368 000:558 JLINKARM_SetSpeed(500) (0001ms, 0552ms total)
+T0368 000:560 JLINKARM_GetHardwareVersion()  returns 0x13880 (0001ms, 0553ms total)
+T0368 000:562 JLINKARM_GetDLLVersion()  returns 41109 (0000ms, 0554ms total)
+T0368 000:562 JLINKARM_GetFirmwareString(...) (0000ms, 0554ms total)
+T0368 000:563 JLINKARM_GetDLLVersion()  returns 41109 (0001ms, 0554ms total)
+T0368 000:564 JLINKARM_GetCompileDateTime() (0000ms, 0555ms total)
+T0368 000:565 JLINKARM_GetFirmwareString(...) (0000ms, 0555ms total)
+T0368 000:566 JLINKARM_GetHardwareVersion()  returns 0x13880 (0000ms, 0555ms total)
+T0368 000:571 JLINKARM_JTAG_StoreRaw(..., 0x108 Bits)  returns 0x00 (0000ms, 0555ms total)
+T0368 000:571 JLINKARM_JTAG_GetU32(BitPos = 227) >0x108 TIF>  returns 0x1BA01477 (0002ms, 0555ms total)
+T0368 000:573 JLINKARM_ReadMem (0xE00FF000, 0x0018 Bytes, ...) >0x108 TIF>Found SWD-DP with ID 0x1BA01477 >0x33 TIF> >0x33 TIF> >0x35 TIF> >0x33 TIF> >0x35 TIF> >0x33 TIF> >0x33 TIF> >0x35 TIF> >0x66 TIF> >0x66 TIF> >0x35 TIF> >0x16D TIF> >0xD0 TIF> >0xD0 TIF>TPIU fitted. >0xD0 TIF> >0xD0 TIF>  FPUnit: 6 code (BP) slots and 2 literal slots >0xD0 TIF> -- CPU is running -- CPU_ReadMem(24 bytes @ 0xE00FF000) -- Data:  AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA AA ...  returns 0x01 (0031ms, 0557ms total)
+T0368 002:247 JLINKARM_Close() (0097ms, 0588ms total)

@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --asm --interleave --asm_dir ".\\lis\\" -I .\user\inc -I .\stdperiph_driver\inc -I .\cmsis -I D:\Keil_v5\ARM\RV31\INC
+-Id:\Keil_v5\ARM\RV31\INC
+-Id:\Keil_v5\ARM\CMSIS\Include
+-Id:\Keil_v5\ARM\Inc\ST\STM32F10x
+-D__UVISION_VERSION="521" -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD
+-o .\stm32f10x_iwdg.o --list_dir ".\\lis\\" --list --omf_browse .\stm32f10x_iwdg.crf --depend .\stm32f10x_iwdg.d "stdperiph_driver\src\stm32f10x_iwdg.c"
