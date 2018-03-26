@@ -577,6 +577,8 @@ int main(void)
 	TIM3_Configuration();
 	DC_MOTOR_DISABLE;
 //	motor_step_move(20000,0);
+
+
   Ht1621_Init();
   M_EN1_DISABLE;
 	M_EN2_DISABLE;
