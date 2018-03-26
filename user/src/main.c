@@ -577,8 +577,6 @@ int main(void)
 	TIM3_Configuration();
 	DC_MOTOR_DISABLE;
 //	motor_step_move(20000,0);
-
-
   Ht1621_Init();
   M_EN1_DISABLE;
 	M_EN2_DISABLE;
@@ -588,6 +586,7 @@ int main(void)
 	{
 		step_motor_init();//20161110 need del
 	}	
+	
 	while (1)
 	{
 		bsp_Idle();		/* 空闲时执行的函数,比如喂狗. 在bsp.c中 */
